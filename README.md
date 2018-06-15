@@ -6,31 +6,33 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 
 ## Table of Contents
 
->[1. Heading][head]<br>
->[2. Bold, Italic and Strike Through][bis]<br>
->[3. Linking][link]<br>
->[4. Images][img]<br>
->[5. Lists][list]<br>
->[6. LineBreaks, Horizontal Rules and BlockQuotes][lhb]<br>
->[7. Code Blocks and Syntax High Lighting][cbshl]<br>
->[8. Tables][tab]<br>
->[9. Checkbox][check]<br>
->[9. Github Treats][githubtreats]<br>
+>[1. Heading 🤩][head]<br>
+>[2. Bold, Italic and Strike Through 👐][bis]<br>
+>[3. Linking 🔗][link]<br>
+>[4. Images 🖼][img]<br>
+>[5. Lists ᬮ][list]<br>
+>[6. LineBreaks, Horizontal Rules and BlockQuotes 🍳][lhb]<br>
+>[7. Code Blocks and Syntax High Lighting 🔆][cbshl]<br>
+>[8. Tables 🍽][tab]<br>
+>[9. Checkbox 🧠][check]<br>
+>[10. Github Treats 🎁][githubtreats]<br>
+>[11. Special Thanks ][thank]
 
 
-[head]: #1-headings
-[bis]: #2-bold,-italic-and-strike-through
-[link]: #3-linking
-[img]: #4-images
-[list]: #5-lists
-[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes
-[cbshl]: #7-code-blocks-and-syntax-high-lighting
-[tab]: #8-tables
-[check]: #9-checkbox 
-[githubtreats]: #10-github-treats
+[head]: #1-headings-🤩
+[bis]: #2-bold,-italic-and-strike-through-👐
+[link]: #3-linking-🔗
+[img]: #4-images-🖼
+[list]: #5-lists-ᬮ
+[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes-🍳
+[cbshl]: #7-code-blocks-and-syntax-high-lighting-🔆
+[tab]: #8-tables-🍽
+[check]: #9-checkbox-🧠
+[githubtreats]: #10-github-treats-🎁
+[thank]: #11-special-thanks
 
 
-## 1. Headings
+## 1. Headings 🤩
 
 To make headings we use # symbol, and the number of # symbol determine the order of headings.<br>
 With _#_ being the most important heading and _######_ being the least important heading.
@@ -56,7 +58,7 @@ With _#_ being the most important heading and _######_ being the least important
 ---
 ---
 
-## 2. Bold, Italic and Strike Through
+## 2. Bold, Italic and Strike Through 👐
 
 ### Bold
 
@@ -101,7 +103,7 @@ This is ~~strikethrough~~
 ---
 ---
 
-## 3. Linking
+## 3. Linking 🔗
 
 ### Basic
 
@@ -163,8 +165,8 @@ Literally you can contribute to the open world projects of the organizations lik
 >#### Result
 >
 >[Github][1] is an awesome place. In [Github][1] you can do awesome stuff.
-Literally you can contribute to the open world projects of the organizations like [facebook][face], [google][goo], etc.
-[Github][1] has now been acquired by [Microsoft][micro].
+Literally you can contribute to the open world projects of the organizations like [facebook][face], [google][goo], etc.<br>
+[Github][1] has been acquired by [Microsoft][micro].
 
 [1]: https://github.com
 [face]: https://facebook.com
@@ -173,7 +175,7 @@ Literally you can contribute to the open world projects of the organizations lik
 
 ---
 ---
-## 4. Images
+## 4. Images 🖼
 
 ### Oldschool Method
 
@@ -257,7 +259,7 @@ There is an update that Chrome and Firefox doesnt render < style /> tags. But th
 ---
 ---
 
-## 5. Lists
+## 5. Lists ᬮ
 
 ### Ordered List
 
@@ -313,7 +315,7 @@ The awesome people in the world -
 ---
 ---
 
-## 6. LineBreaks, Horizontal Rules and BlockQuotes
+## 6. LineBreaks, Horizontal Rules and BlockQuotes 🍳
 
 ### Line Breaks
 
@@ -385,7 +387,7 @@ Advanced React.
 ---
 ---
 
-## 7. Code Blocks and Syntax High Lighting
+## 7. Code Blocks and Syntax High Lighting 🔆
 
 ### Code Blocks
 
@@ -432,15 +434,15 @@ If you are telling someone to delete and add a line, you can use diff.
 ---
 ---
 
-## 8. Tables
+## 8. Tables 🍽
 
 Tables can be made easily by using |. And one align the text based on the position of the :.
 
 ```markdown
-|S. No.| Title | Description |
-|:-----|:-----:|------------:|
-|1.| Cool | Thats cool|
-|2.| hey | hey |
+| S. No. | Title | Description |
+| :----- | :---: | ----------: |
+| 1.     | Cool  | Thats cool  |
+| 2.     | hey   | hey         |
 ```
 
 >#### Result
@@ -453,7 +455,7 @@ Tables can be made easily by using |. And one align the text based on the positi
 ---
 ---
 
-## 9. Checkbox
+## 9. Checkbox 🧠
 
 We can make checkboxes in markdown using [ ] brackets.
 
@@ -473,7 +475,7 @@ To Do List -
 ---
 ---
 
-## 10. Github Treats
+## 10. Github Treats 🎁
 
 You can reference pull requests and issues using # symbol. And you can tag people using @ symbol.
 
@@ -484,6 +486,15 @@ Hey I found issue at #23, which was fixed in #81. @ankitc1010 can you look into 
 >#### Result
 >
 Hey I found issue at #23, which was fixed in #81. @ankitc1010 can you look into it?
+
+---
+---
+
+## 11. Special Thanks
+
+<img src='https://pbs.twimg.com/profile_images/877525007185858562/7G9vGTca_400x400.jpg' width='100' height='100' style="border-radius: 200px;"/><br>
+
+Special thanks to **Wes Bos**, as I often go throught his tutorials.
 
 ---
 ---
