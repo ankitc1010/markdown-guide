@@ -31,7 +31,6 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 [githubtreats]: #10-github-treats-
 [thank]: #11-special-thanks
 
-
 ## 1. Headings 🤩
 
 To make headings we use # symbol, and the number of # symbol determine the order of headings.<br>
