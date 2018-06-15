@@ -6,15 +6,25 @@ To make headings use the following code snippet
 
 ```markdown
 # This is heading 1
-
 ## This is heading 2
+### This is heading 3
+#### This is heading 4
+##### This is heading 5
+###### This is heading 6
 ```
 
 #### Result
 
 # This is heading 1
-
 ## This is heading 2
+### This is heading 3
+#### This is heading 4
+##### This is heading 5
+###### This is heading 6
+
+---
+---
+---
 
 ## Bold, Italic and Strike Through
 
@@ -30,6 +40,8 @@ This is **bold**
 
 This is **bold**
 
+---
+
 ### Italic
 
 To make text italic use the following code snippet
@@ -42,6 +54,8 @@ This is _italic_
 
 This is _italic_
 
+---
+
 ### Strike Through
 
 To make a strikethrough use the following code snippet
@@ -53,6 +67,10 @@ This is ~~strikethrough~~
 #### Result
 
 This is ~~strikethrough~~
+
+---
+---
+---
 
 ## Linking
 
@@ -176,9 +194,189 @@ There is an update that Chrome and Firefox doesnt render < style /> tags. But th
 
 <style
   type="text/css">
-#cool {
-        border-radius: 200px;
-    }
+#cool { border-radius: 200px;}
 </style>
 
-###
+## Lists
+
+### Ordered List
+
+Here is a code snippet for writing the nested and normal list. Best practice is we use only 1. to order them.
+
+```markdown
+The list is -
+
+1.  Cool
+    1.  cool
+    1.  hello
+1.  Really Cool
+1.  Something
+```
+
+#### Result
+
+The list is -
+
+1.  Cool
+    1.  cool
+    1.  hello
+1.  Really Cool
+1.  Something
+
+### Unordered List
+
+For unordered list we use either +, \*, -.
+
+It is the best practice to change the sign when using nested list.
+
+```markdown
+The list is -
+
+- cool
+  - yeah
+  - cool
+  - chill
+- yeah
+- hello
+```
+
+#### Result
+
+The list is -
+
+- cool
+  - yeah
+  - cool
+  - chill
+- yeah
+- hello
+
+## LineBreaks, Horizontal Lines and BlockQuotes
+
+### Line Breaks
+
+In order to break the line either use Double Line Enter or use < br > tag.
+
+```markdown
+This is first line. <br>
+This is second.
+
+or
+
+This is first line.
+
+This is second
+```
+
+#### Result
+
+This is first line. <br>
+This is second.
+
+or
+
+This is first line.
+
+This is second.
+
+### Horizontal Lines
+
+This is used to draw lines in between.
+
+```markdown
+hello
+
+---
+
+helllo
+
+---
+```
+
+#### Result
+
+hello
+
+---
+
+helllo
+
+---
+
+### BlockQuotes
+
+```markdown
+> Cool suttf
+> relay
+>
+> **- Cool**
+```
+
+#### Result
+
+> Cool suttf
+> relay
+>
+> **- Cool**
+
+## Code Blocks and Syntax High Lighting
+
+### Code Blocks
+
+To write code blocks use ``` to start and followed by which language that code is for and ` for inlining the code.
+
+```markdown
+    ```javascript
+    const a = 100
+    ```
+
+    Hey did you mean `var a = 100`? 
+```
+
+#### Result
+
+```javascript
+const a = 100
+```
+
+ Hey did you mean `var a = 100`? 
+
+### Syntax Highlight
+
+If you are telling someone to delete and add a line, you can use diff.
+
+```markdown
+    ```diff
+    var a = 100;
+    - var b = 200;
+    + var b = 400;
+    ```
+```
+
+#### Result
+
+```diff
+var a = 100;
+- var b = 200;
++ var b = 400;
+```
+
+## Tables
+
+Tables can be made easily by using |. And one align the text based on the position of the :.
+
+```markdown
+|S. No.| Title | Description |
+|:-----|:-----:|------------:|
+|1.| Cool | Thats cool|
+|2.| hey | hey |
+```
+
+#### Result
+
+|S. No.| Title | Description |
+|:-----|:-----:|------------:|
+|1.| Cool | Thats cool|
+|2.| hey | hey |
+
+[foo]: /url "title"
