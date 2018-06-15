@@ -174,4 +174,9 @@ There is an update that Chrome and Firefox doesnt render < style /> tags. But th
 
 <img src="https://unsplash.it/500/500?image=1015" id='cool' alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
 
+<style>
+    #cool {
+        border-radius: 200px;
+    }
+</style>
 ### 
