@@ -1,5 +1,25 @@
-# Markup Guide
+# Markdown Guide
 
+The purpose of this is for quick reference to various elements of markdown and how they can be applied.
+
+I wanted to better contribute to projects on **Github**. Thats why I learned _markdown_. Hope this documentation is of good help to you too. 😀 👍 
+
+## Table of Contents
+
+>[1. Heading][head]<br>
+>[2. Bold, Italic and Strike Through][bis]<br>
+>[3. Linking][link]<br>
+>[1. Heading][head]<br>
+>[1. Heading][head]<br>
+>[1. Heading][head]<br>
+>[1. Heading][head]<br>
+>[1. Heading][head]<br>
+>[1. Heading][head]<br>
+
+
+[head]: #headings
+[bis]: #bold,-italic-and-strike-through
+[link]: #linking
 ## Headings
 
 To make headings use the following code snippet
@@ -82,9 +102,9 @@ In order to link a particular text to another document use the following snippet
 A link to [Google](http://www.google.co.in)
 ```
 
-#### Result
-
-A link to [Google](https://www.google.co.in)
+>#### Result
+>
+>A link to [Google](https://www.google.co.in)
 
 ### Old School with ToolTip
 
@@ -94,9 +114,9 @@ In order to attach a tooltip, on hover over the link attach a string with the li
 A link to [Ankit's Github Account](https://github.com/ankitc1010, "Check out his awesome repositories")
 ```
 
-#### Result
-
-A link to [Ankit's Github Account](https://github.com/ankitc1010, "Check out his awesome repositories")
+>#### Result
+>
+>A link to [Ankit's Github Account](https://github.com/ankitc1010, "Check out his awesome repositories")
 
 ### Recommended Method
 
