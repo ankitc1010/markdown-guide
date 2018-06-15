@@ -24,7 +24,7 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 [link]: #3-linking-
 [img]: #4-images-
 [list]: #5-lists-ᬮ
-[lhb]: #6-lineBreaks-horizontal-rules-and-blockQuotes-
+[lhb]: #6-linebreaks-horizontal-rules-and-blockquotes-
 [cbshl]: #7-code-blocks-and-syntax-high-lighting-
 [tab]: #8-tables-
 [check]: #9-checkbox-
