@@ -6,6 +6,7 @@ To make headings use the following code snippet
 
 ```markdown
 # This is heading 1
+
 ## This is heading 2
 ```
 
@@ -105,7 +106,6 @@ Literally you can contribute to the open world projects of the organizations lik
 [goo]: https://google.co.in
 [micro]: https://microsoft.com
 
-
 ## Images
 
 ### Oldschool Method
@@ -115,6 +115,7 @@ This is used to add images to your document.
 ```markdown
 ![This is the default text which is displayed if the image fails to load and can be left blank!](https://unsplash.it/500/500?random "This is Tooltip")
 ```
+
 #### Result
 
 ![This is the default text which is displayed if the image fails to load and can be left blank!](https://unsplash.it/200/200?random "This is Tooltip and can be omitted altogether")
@@ -159,7 +160,6 @@ You can use html image tag in the above example and it will work the same.
 
 [<img src="https://unsplash.it/50/50?image=1015" alt='image'/>](https://unsplash.it/200/200?image=1015)
 
-
 ### Using only HTML Tags To Display Image
 
 There are limitations with respect to styling in markdown, so HTML can be used and corressponding style tags can also be added.
@@ -174,9 +174,11 @@ There is an update that Chrome and Firefox doesnt render < style /> tags. But th
 
 <img src="https://unsplash.it/500/500?image=1015" id='cool' alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
 
-<style >
-    #cool {
+<style
+  type="text/css">
+#cool {
         border-radius: 200px;
     }
 </style>
-### 
+
+###
