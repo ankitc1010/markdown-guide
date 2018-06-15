@@ -9,17 +9,25 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 >[1. Heading][head]<br>
 >[2. Bold, Italic and Strike Through][bis]<br>
 >[3. Linking][link]<br>
->[1. Heading][head]<br>
->[1. Heading][head]<br>
->[1. Heading][head]<br>
->[1. Heading][head]<br>
->[1. Heading][head]<br>
->[1. Heading][head]<br>
+>[4. Images][img]<br>
+>[5. Lists][list]<br>
+>[6. LineBreaks, Horizontal Lines and BlockQuotes][lhb]<br>
+>[7. Code Blocks and Syntax High Lighting][cbshl]<br>
+>[8. Tables][tab]<br>
+>[9. Github Treats][githubtreats]<br>
 
 
 [head]: #headings
 [bis]: #bold,-italic-and-strike-through
 [link]: #linking
+[img]: #images
+[list]: #lists
+[lhb]: #lineBreaks,-horizontal-lines-and-blockQuotes
+[cbshl]: #code-blocks-and-syntax-high-lighting
+[tab]: #tables
+[githubtreats]: #github-treats
+
+
 ## Headings
 
 To make headings use the following code snippet
@@ -33,14 +41,14 @@ To make headings use the following code snippet
 ###### This is heading 6
 ```
 
-#### Result
-
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+>#### Result
+>
+># This is heading 1
+>## This is heading 2
+>### This is heading 3
+>#### This is heading 4
+>##### This is heading 5
+>###### This is heading 6
 
 ---
 ---
@@ -56,9 +64,9 @@ To make text bold use the following code snippet
 This is **bold**
 ```
 
-#### Result
-
-This is **bold**
+>#### Result
+>
+>This is **bold**
 
 ---
 
@@ -70,9 +78,9 @@ To make text italic use the following code snippet
 This is _italic_
 ```
 
-#### Result
-
-This is _italic_
+>#### Result
+>
+>This is _italic_
 
 ---
 
@@ -84,9 +92,9 @@ To make a strikethrough use the following code snippet
 This is ~~strikethrough~~
 ```
 
-#### Result
-
-This is ~~strikethrough~~
+>#### Result
+>
+>This is ~~strikethrough~~
 
 ---
 ---
@@ -133,10 +141,10 @@ Literally you can contribute to the open world projects of the organizations lik
 [micro]: https://microsoft.com
 ```
 
-#### Result
-
-[Github][1] is an awesome place. In [Github][1] you can do awesome stuff.
-Literally you can contribute to the open world projects of the organizations like [facebook][face], [google][goo], etc.
+>#### Result
+>
+>[Github][1] is an awesome place. >In [Github][1] you can do awesome stuff.
+>Literally you can contribute to the open world projects of the organizations like [facebook][face], [google][goo], etc.
 [Github][1] has now been acquired by [Microsoft][micro].
 
 [1]: https://github.com
@@ -154,9 +162,9 @@ This is used to add images to your document.
 ![This is the default text which is displayed if the image fails to load and can be left blank!](https://unsplash.it/500/500?random "This is Tooltip")
 ```
 
-#### Result
-
-![This is the default text which is displayed if the image fails to load and can be left blank!](https://unsplash.it/200/200?random "This is Tooltip and can be omitted altogether")
+>#### Result
+>
+>![This is the default text which is displayed if the image fails to load and can be left blank!](https://unsplash.it/200/200?random "This is Tooltip and can be omitted altogether")
 
 ### Recommended Method
 
@@ -168,9 +176,9 @@ This is the recommended method to add image.
 [image]: https://unsplash.it/200/200?image=1012
 ```
 
-#### Result
-
-![Ocean Image][ocean]
+>#### Result
+>
+>![Ocean Image][ocean]
 
 [ocean]: https://unsplash.it/200/200?image=1015
 
@@ -182,9 +190,9 @@ In this a smaller image is referring to its bigger resolution counterpart.
 [![](https://unsplash.it/50/50?image=1015)](https://unsplash.it/200/200?image=1015)
 ```
 
-#### Result
-
-[![](https://unsplash.it/50/50?image=1015)](https://unsplash.it/200/200?image=1015)
+>#### Result
+>
+>[![](https://unsplash.it/50/50?image=1015)](https://unsplash.it/200/200?image=1015)
 
 ### Using HTML Tag in Nested Link
 
@@ -194,9 +202,9 @@ You can use html image tag in the above example and it will work the same.
 [<img src="https://unsplash.it/50/50?image=1015" alt='image'/>](https://unsplash.it/200/200?image=1015)
 ```
 
-#### Result
-
-[<img src="https://unsplash.it/50/50?image=1015" alt='image'/>](https://unsplash.it/200/200?image=1015)
+>#### Result
+>
+>[<img src="https://unsplash.it/50/50?image=1015" alt='image'/>](https://unsplash.it/200/200?image=1015)
 
 ### Using only HTML Tags To Display Image
 
@@ -208,9 +216,9 @@ There is an update that Chrome and Firefox doesnt render < style /> tags. But th
 <img src="https://unsplash.it/500/500?image=1015" alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
 ```
 
-#### Result
-
-<img src="https://unsplash.it/500/500?image=1015" id='cool' alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
+>#### Result
+>
+><img src="https://unsplash.it/500/500?image=1015" id='cool' alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
 
 <style
   type="text/css">
@@ -233,10 +241,9 @@ The list is -
 1.  Something
 ```
 
-#### Result
-
-The list is -
-
+>#### Result
+>
+>The list is -<br>
 1.  Cool
     1.  cool
     1.  hello
@@ -260,10 +267,9 @@ The list is -
 - hello
 ```
 
-#### Result
-
-The list is -
-
+>#### Result
+>
+>The list is -<br>
 - cool
   - yeah
   - cool
@@ -288,16 +294,15 @@ This is first line.
 This is second
 ```
 
-#### Result
-
-This is first line. <br>
-This is second.
-
-or
-
-This is first line.
-
-This is second.
+>#### Result
+>This is first line. <br>
+>This is second.
+>
+>or
+>
+>This is first line.
+>
+>This is second.
 
 ### Horizontal Lines
 
@@ -313,15 +318,15 @@ helllo
 ---
 ```
 
-#### Result
-
-hello
-
----
-
-helllo
-
----
+>#### Result
+>
+>hello
+>
+>---
+>
+>helllo
+>
+>---
 
 ### BlockQuotes
 
@@ -332,12 +337,12 @@ helllo
 > **- Cool**
 ```
 
-#### Result
-
-> Cool suttf
-> relay
+>#### Result
 >
-> **- Cool**
+>> Cool suttf
+>>relay
+>>
+>> **- Cool**
 
 ## Code Blocks and Syntax High Lighting
 
@@ -373,13 +378,13 @@ If you are telling someone to delete and add a line, you can use diff.
     ```
 ```
 
-#### Result
-
-```diff
-var a = 100;
-- var b = 200;
-+ var b = 400;
-```
+>#### Result
+>
+>```diff
+>var a = 100;
+>- var b = 200;
+>+ var b = 400;
+>```
 
 ## Tables
 
@@ -392,11 +397,36 @@ Tables can be made easily by using |. And one align the text based on the positi
 |2.| hey | hey |
 ```
 
+>#### Result
+>
+>|S. No.| Title | Description |
+>|:-----|:-----:|------------:|
+>|1.| Cool | Thats cool|
+>|2.| hey | hey |
+
+## Checkbox
+
+We can make checkboxes in markdown using [ ] brackets.
+
+```markdown
+* [ ] hello
+* [x] cool
+* [ ] cool as hell
+```
+
+#### Result
+* [ ] hello
+* [x] cool
+* [ ] cool as hell
+
+## Github Treats
+
+You can reference pull requests and issues using # symbol. And you can tag people using @ symbol.
+
+```markdown
+Hey I found issue at #23 which was fixed in #81. @ankitc1010 can you look into it?
+```
+
 #### Result
 
-|S. No.| Title | Description |
-|:-----|:-----:|------------:|
-|1.| Cool | Thats cool|
-|2.| hey | hey |
-
-[foo]: /url "title"
+Hey I found issue at #23 which was fixed in #81. @ankitc1010 can you look into it?
