@@ -17,15 +17,15 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 >[9. Github Treats][githubtreats]<br>
 
 
-[head]: #1.-headings
-[bis]: #2.-bold,-italic-and-strike-through
-[link]: #3.-linking
-[img]: #4.-images
-[list]: #5.-lists
-[lhb]: #6.-lineBreaks,-horizontal-rules-and-blockQuotes
-[cbshl]: #7.-code-blocks-and-syntax-high-lighting
-[tab]: #8.-tables
-[githubtreats]: #9.-github-treats
+[head]: #1-headings
+[bis]: #2-bold,-italic-and-strike-through
+[link]: #3-linking
+[img]: #4-images
+[list]: #5-lists
+[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes
+[cbshl]: #7-code-blocks-and-syntax-high-lighting
+[tab]: #8-tables
+[githubtreats]: #9-github-treats
 
 
 ## 1. Headings
