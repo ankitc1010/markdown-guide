@@ -19,16 +19,16 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 >[11. Special Thanks ][thank]
 
 
-[head]: #1-headings-🤩
-[bis]: #2-bold,-italic-and-strike-through-👐
-[link]: #3-linking-🔗
-[img]: #4-images-🖼
+[head]: #1-headings-
+[bis]: #2-bold,-italic-and-strike-through-
+[link]: #3-linking-
+[img]: #4-images-
 [list]: #5-lists-ᬮ
-[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes-🍳
-[cbshl]: #7-code-blocks-and-syntax-high-lighting-🔆
-[tab]: #8-tables-🍽
-[check]: #9-checkbox-🧠
-[githubtreats]: #10-github-treats-🎁
+[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes-
+[cbshl]: #7-code-blocks-and-syntax-high-lighting-
+[tab]: #8-tables-
+[check]: #9-checkbox-
+[githubtreats]: #10-github-treats-
 [thank]: #11-special-thanks
 
 
