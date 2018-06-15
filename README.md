@@ -20,11 +20,11 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 
 
 [head]: #1-headings-
-[bis]: #2-bold,-italic-and-strike-through-
+[bis]: #2-bold-italic-and-strike-through-
 [link]: #3-linking-
 [img]: #4-images-
 [list]: #5-lists-ᬮ
-[lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes-
+[lhb]: #6-lineBreaks-horizontal-rules-and-blockQuotes-
 [cbshl]: #7-code-blocks-and-syntax-high-lighting-
 [tab]: #8-tables-
 [check]: #9-checkbox-
@@ -494,7 +494,7 @@ Hey I found issue at #23, which was fixed in #81. @ankitc1010 can you look into 
 
 <img src='https://pbs.twimg.com/profile_images/877525007185858562/7G9vGTca_400x400.jpg' width='100' height='100' style="border-radius: 200px;"/><br>
 
-Special thanks to **Wes Bos**, as I often go throught his tutorials.
+Special thanks to **Wes Bos**, as I often go through his tutorials.
 
 ---
 ---
