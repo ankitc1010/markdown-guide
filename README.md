@@ -14,6 +14,7 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 >[6. LineBreaks, Horizontal Rules and BlockQuotes][lhb]<br>
 >[7. Code Blocks and Syntax High Lighting][cbshl]<br>
 >[8. Tables][tab]<br>
+>[9. Checkbox][check]<br>
 >[9. Github Treats][githubtreats]<br>
 
 
@@ -25,7 +26,8 @@ I wanted to better contribute to projects on **Github**. Thats why I learned _ma
 [lhb]: #6-lineBreaks,-horizontal-rules-and-blockQuotes
 [cbshl]: #7-code-blocks-and-syntax-high-lighting
 [tab]: #8-tables
-[githubtreats]: #9-github-treats
+[check]: #9-checkbox 
+[githubtreats]: #10-github-treats
 
 
 ## 1. Headings
