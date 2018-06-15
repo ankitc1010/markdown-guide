@@ -1,5 +1,20 @@
 # Markup Guide
 
+## Headings
+
+To make headings use the following code snippet
+
+```markdown
+    # This is heading 1
+    ## This is heading 2
+```
+
+#### Result
+
+# This is heading 1
+
+## This is heading 2
+
 ## Bold, Italic and Strike Through
 
 ### Bold
