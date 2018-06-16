@@ -1,4 +1,9 @@
-# Markdown Guide
+<h1 align='center'>
+
+![](markdown-guide.png "")<br>
+
+Markdown Guide
+</h1>
 
 The purpose of this is for **quick reference** to various elements of markdown and the **best practices** on how they can be applied.
 
