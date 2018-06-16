@@ -240,20 +240,14 @@ You can use html image tag in the above example and it will work the same.
 
 There are limitations with respect to styling in markdown, so HTML can be used and corressponding style tags can also be added.
 
-There is an update that Chrome and Firefox doesnt render < style /> tags. But they render inline styles.
-
 ```markdown
-<img src="https://unsplash.it/500/500?image=1015" alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
+<img src="https://unsplash.it/500/500?image=1015" alt='cool image' width='200' height='200' />
 ```
 
 >#### Result
 >
-><img src="https://unsplash.it/500/500?image=1015" id='cool' alt='cool image' style="width: 200px; height: 200px; border-radius: 200px;"/>
+><img src="https://unsplash.it/500/500?image=1015" alt='cool image' width='200' height='200' />
 
-<style
-  type="text/css">
-#cool { border-radius: 200px;}
-</style>
 
 ---
 ---
@@ -497,3 +491,5 @@ Special thanks to **Wes Bos**, as I often go through his tutorials.
 
 ---
 ---
+
+License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
